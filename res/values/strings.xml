@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Top Tracks</string>
+	<string name="looking_for_tracks">Searching for top tracks in this area...</string>
+	<string name="no_tracks">No top tracks found for that metro area.</string>
+
+	<string name="track_button_label">Top Tracks</string>
+	<string-array name="metros">
+		<item>Denver</item>
+		<item>Detroit</item>
+		<item>Miami</item>
+		<item>Orlando</item>
+		<item>Phoenix</item>
+		<item>Sacramento</item>
+		<item>Seattle</item>
+	</string-array>
+</resources>

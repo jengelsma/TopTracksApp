@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/background"
+	android:background="@drawable/rowselector">
+
+	<RelativeLayout android:layout_centerVertical="true"
+		android:paddingLeft="4dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<ImageView android:scaleType="fitXY"  android:layout_height="32dip" android:layout_width="32dip" 
+			 android:id="@+id/album_icon" android:layout_alignParentLeft="true" android:src="@drawable/blank" android:layout_centerVertical="true">
+		</ImageView>
+		<TextView android:id="@+id/track_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textColor="#777777"
+			android:shadowColor="@color/black" android:shadowRadius="0.5"
+			android:shadowDx="0" android:shadowDy="0" android:layout_toRightOf="@+id/album_icon" android:layout_marginLeft="4dip"></TextView>
+		<TextView android:id="@+id/artist_name"
+			android:text="Best Badger: " android:layout_width="wrap_content" android:layout_marginLeft="4dip"
+			android:layout_height="wrap_content" android:layout_toRightOf="@+id/album_icon" android:layout_below="@id/track_name"></TextView>
+	</RelativeLayout>
+
+	<Button android:id="@+id/track_button"
+		android:text="Artist" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"></Button>
+
+
+
+</RelativeLayout>
